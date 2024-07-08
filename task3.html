@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>task3</title>
+</head>
+
+<body style="background-color: #E6E6FA		;">
+    <div>
+        <h1 style="color:#0000FF; background-color:#ADD8E6	" align="center"> <i> <b> HTML LISTS </b></i></h1>
+        <p style="font-size: x-large; color:#1E90FF	" align="right">.من الطرق الهامه جدا لترتيب البيانات والمعلومات التي
+            تكون ذات صله واحده HTML تعتبر القوائم في لغه
+
+            <br>
+            .لذلك تعد القوائم اداه سهله وبسيطه لتنسيق محتوي الصفحه الخاصه بك
+            <br>
+            .br كما تعتبر القوام هي الطريقه الصحيحه لعرض العناصر واحدا تلو الاخر بدلا من استخدام عنصر
+        </p>
+        <br>
+        <hr>
+        <br>
+        <h2 style="color:#0000FF;" dir="rtl"> <u> القوائم المرتبة Ordered lists</u> </h2>
+        <p style="font-size: x-large;color:#1E90FF " dir="rtl"> عبارة عن مجموعه عناصر مرقمه ومرتبة ترتيب معين.<br>
+            يكون الناتج في الشكل التالي:
+            <code style="font-size: x-large;color:#8A2BE2	 " dir="rtl">
+            <pre>
+                <ol type="A" >
+                    <li >  html   </li>
+                    <li>  css   </li>
+                    <li>  javascript   </li>
+                </ol>
+            </pre>
+          </code>
+
+        <h2 style="color:#0000FF;" dir="rtl"> <u> القوائم الغير المرتبة Unordered lists</u> </h2>
+        <p style="font-size: x-large;color:#1E90FF " dir="rtl"> عبارة عن مجموعه عناصر بدون ترتيب ولا يهم ترتيبها.
+            <br>
+            يكون الناتج في الشكل التالي:
+            <code style="font-size: x-large;color:#8A2BE2	 " dir="rtl">
+            <pre>
+                <ul>
+                    <li>  Arabic   </li>
+                    <li>  English   </li>
+                    <li>  French</li>
+                </ul>
+            </pre>
+          </code>
+
+        <h2 style="color:#0000FF;" dir="rtl"> <u> القوائم الوصف Description lists</u> </h2>
+        <p style="font-size: x-large;color:#1E90FF " dir="rtl"> عباره عن قائمه تحتوي علي المصطلح وتعريفيه.
+            <br>
+            يكون الناتج في الشكل التالي:
+            <code style="font-size: x-large;color:#8A2BE2	 " dir="rtl">
+            <pre>
+                <dl>
+                    <dt>  Front-End   </dt>
+                    <dd> هي الجزء الذي يمكن لمستخدمي موقع الويب رؤيته والتفاعل معه </dd>
+
+
+                    <dt>  Back-End   </dt>
+                    <dd>  الجزء الذي لا يستطيع مستخدمو الموقع رؤيته والتفاعل معه</dd>
+                </dl>
+            </pre>
+          </code>
+    </div>
+    <hr>
+    <hr>
+
+    <div>
+        <h1 style="color:#0000FF; background-color:#ADD8E6	" align="center"> <i> <b> Range </b></i></h1>
+        <p style="font-size: x-large; color:#1E90FF	" align="right"> تسمح عناصرها للمستخدم بتحديد قيمه عددية ليست اقل من
+            قيمه معينه وليست اكبر من قيمه اخري ولا تعتبر القيمه الدقيقه لمدخلات المستخدم مهمه
+            <br>
+            ويكون شكلها كالتالي:
+            <br>
+
+            <input type="range">
+            <br>
+            <br>
+            min,max كما يمكن تحديد القيم الصغري والكبري عن طريق
+            <br>
+            <input type="range" min="5" max="10">
+            <br>
+            <br>
+            step كما يمكن تحديد الخطوات عن طريق
+            <br>
+            <input type="range" step="2">
+            <br> <br>
+            list يمكن اضافه حقل المجال عن طريق الخاصيه
+            <br>
+            <input type="range" list="tickmarks">
+
+            <datalist id="tickmarks">
+                <option value="0">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+            <br> <br>
+            كما يمكن اضافه حقل المجال مع علامات ولافتات
+            <br>
+            <code> </code>
+            <input type="range" list="tickmarks">
+
+            <datalist id="tickmarks">
+                <option value="0" label="0%">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50" label="50%">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100" label="100%">
+            </datalist>
+        </p>
+
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h1 style="color:#0000FF; background-color:#ADD8E6	" align="center"> <i> <b>ASCII Code </b></i></h1>
+        <table align="center" border="10" width="700px">
+            <thead style="background-color:#3586d7 ;font-size:xx-large">
+                <td> Letter </td>
+                <td> ASCII Code </td>
+                <td> Binary </td>
+            </thead>
+            <tbody style="background-color:#82baf1 ;font-size:x-large">
+                <tr>
+                    <td>A</td>
+                    <td>065 </td>
+                    <td>01000001 </td>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>097</td>
+                    <td>01100001 </td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>066</td>
+                    <td>01000010</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>098</td>
+                    <td>01100010 </td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>067</td>
+                    <td>01000011 </td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>099</td>
+                    <td>01100011</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>068</td>
+                    <td>01000100</td>
+                </tr>
+                <tr>
+                    <td>d</td>
+                    <td>100</td>
+                    <td>01100100</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td>069</td>
+                    <td>01000101</td>
+                </tr>
+                <tr>
+                    <td>e</td>
+                    <td>101</td>
+                    <td>01100101</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>070</td>
+                    <td>01000110</td>
+                </tr>
+                <tr>
+                    <td>f</td>
+                    <td>102</td>
+                    <td>01100110</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>071</td>
+                    <td>01000111</td>
+                </tr>
+                <tr>
+                    <td>g</td>
+                    <td>103</td>
+                    <td>01100111</td>
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <td>072</td>
+                    <td>01001000</td>
+                </tr>
+                <tr>
+                    <td>h</td>
+                    <td>104</td>
+                    <td>01101000</td>
+                </tr>
+                <tr>
+                    <td>W</td>
+                    <td>087</td>
+                    <td>01010111</td>
+                </tr>
+                <tr>
+                    <td>w</td>
+                    <td>119</td>
+                    <td>01110111</td>
+                </tr>
+                <tr>
+                    <td>T</td>
+                    <td>084</td>
+                    <td>01010100</td>
+                </tr>
+                <tr>
+                    <td>t</td>
+                    <td>116</td>
+                    <td>01110100</td>
+                </tr>
+                <tr>
+                    <td>R</td>
+                    <td>082</td>
+                    <td>01010010</td>
+                </tr>
+                <tr>
+                    <td>r</td>
+                    <td>114</td>
+                    <td>01110010</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+    </div>
+
+</body>
+
+</html>
